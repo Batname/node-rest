@@ -1,0 +1,12 @@
+{
+  "middlewares": {
+
+  },
+  "services": [
+    {
+      "name": "bat-users",
+      "active": true,
+      "port": 3002
+    }
+  ]
+}
