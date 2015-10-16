@@ -21,6 +21,8 @@
     "co": "^4.6.0",
     "config": "^1.15.0",
     "css-loader": "^0.19.0",
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
     "eslint": "^1.7.0",
     "eslint-loader": "^1.1.0",
     "eslint-plugin-react": "^3.5.1",
@@ -39,5 +41,10 @@
     "style-loader": "^0.12.4",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "grunt-dust-html": "^0.2.1",
+    "gulp-dust": "^2.0.0",
+    "gulp-dust-html": "0.0.4"
   }
 }
