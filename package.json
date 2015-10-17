@@ -31,6 +31,7 @@
     "gulp-util": "^3.0.6",
     "lodash": "^3.10.1",
     "minimist": "^1.2.0",
+    "mongoose": "^4.1.11",
     "node-bourbon": "^4.2.3",
     "node-neat": "^1.7.2",
     "node-sass": "^3.3.3",

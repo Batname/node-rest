@@ -8,5 +8,16 @@
       "active": true,
       "port": 3002
     }
-  ]
+  ],
+  "mongoose": {
+    "uri":     "mongodb://localhost/node-rest",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        },
+        "poolSize":      5
+      }
+    }
+  }
 }
