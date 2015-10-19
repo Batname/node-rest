@@ -16,12 +16,16 @@ function lazyRequireTask(path) {
   };
 }
 
+// Database tasks
+gulp.task('db:load', lazyRequireTask('./services/node_modules/bat-users/tasks/db-load', {} ));
+
 // Webpack build
 const webpackConfig = {path: '../config/webpack.config.js', watch: true};
 gulp.task('webpack', lazyRequireTask('./tasks/webpack', webpackConfig));
 
 const dustConfig = {path: './services/' };
 gulp.task('dust', lazyRequireTask('./tasks/dust', dustConfig ));
+
 
 // Build and start watching for modifications
 gulp.task('build:watch', cb => {

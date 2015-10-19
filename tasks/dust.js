@@ -1,7 +1,7 @@
 import gulp from 'gulp';
-const dust = require('dustjs-linkedin');
+import dust =  from 'dustjs-linkedin';
 dust.helpers = require('dustjs-helpers').helpers;
-const dusthtml = require('gulp-dust-html');
+import dusthtml = from 'gulp-dust-html';
 
 export default function(options){
   return cb => {
